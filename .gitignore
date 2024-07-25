@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Log files
+*.log
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Miscellaneous
+.DS_Store
+*.pem
+
+# Yarn integrity
+yarn.lock
+package-lock.json

@@ -228,60 +228,36 @@ export const ServiceSection2 = ({ showItem = 100 }) => {
   const services = [
     {
       id: 1,
-      title: "Customer Software Development",
-      icon: "flaticon-coding",
-      desc: "We approached WiaTech with complex project deliver",
+      title: "Assistance aux Démarches de Visa Étudiant",
+      icon: "mortarboard.png",
+      desc: "Vous rêvez d'étudier en France ? RPCH Consulting est votre partenaire de confiance pour vous guider à chaque étape de votre demande de visa étudiant.",
     },
     {
-      id: 2,
-      title: "Desktop Computing Services",
-      icon: "flaticon-server",
-      desc: "We approached WiaTech with complex project deliver",
+      id : 2,
+      title : "Service de Location de Voitures",
+      icon : "car.png",
+      desc : "Voyagez en toute liberté avec RPCH Consulting ! Notre service de location de voitures propose une large gamme de véhicules adaptés à tous vos besoins."
     },
     {
-      id: 3,
-      title: "Infrastructure Plan & Business Reform",
-      icon: "flaticon-service",
-      desc: "We approached WiaTech with complex project deliver",
+      id : 3,
+      title : "Assistance aux Formalités de Voyage",
+      icon : "travel.png",
+      desc : "Préparez votre voyage en toute sérénité avec RPCH Consulting. Nous vous accompagnons dans toutes vos démarches administratives, de la demande de visa à l'obtention ou le renouvellement de votre passeport."
     },
     {
-      id: 4,
-      title: "Backup & Recovery Data Services",
-      icon: "flaticon-data-science",
-      desc: "We approached WiaTech with complex project deliver",
-    },
-    {
-      id: 5,
-      title: "Data & Cyber Security Managment",
-      icon: "flaticon-technology-1",
-      desc: "We approached WiaTech with complex project deliver",
-    },
-    {
-      id: 6,
-      title: "Firewall Advancement & Defender System",
-      icon: "flaticon-server",
-      desc: "We approached WiaTech with complex project deliver",
-    },
-    {
-      id: 7,
-      title: "Apps Development & UI/UX Project",
-      icon: "flaticon-service",
-      desc: "We approached WiaTech with complex project deliver",
-    },
-    {
-      id: 8,
-      title: "Data & Cyber Security Managment",
-      icon: "flaticon-data-science",
-      desc: "We approached WiaTech with complex project deliver",
+      id : 3,
+      title : "Support Complet pour Vos Séjours",
+      icon : "apartment.png",
+      desc : "Faites de votre séjour une réussite avec RPCH Consulting. Nous proposons un service de réservation d'hôtels qui couvre une large gamme d'options, des hébergements luxueux aux solutions économiques. "
     },
   ];
   return (
     <div className="container">
       <div className="section-title text-center">
-        <span className="wow fadeInUp">our fucusable services</span>
+        <span className="wow fadeInUp">Nos services</span>
         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-          How do we work to help you <br />
-          in Startup Business
+        Voyagez l'esprit tranquille. <br />
+        Nous gérons vos démarches.
         </h2>
       </div>
       <div className="row">
@@ -290,19 +266,17 @@ export const ServiceSection2 = ({ showItem = 100 }) => {
             index < showItem && (
               <div
                 key={service.id}
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
                 data-wow-delay=".3s"
               >
                 <div className="service-box-items">
-                  <div className="icon">
-                    <i className={service.icon} />
-                  </div>
+                  <img src={"assets/images/"+service.icon} width="50" height="50" />
                   <div className="content">
                     <h3>
-                      <Link href="service-details">{service.title}</Link>
+                      <Link href="service">{service.title}</Link>
                     </h3>
                     <p>{service.desc}</p>
-                    <Link href="service-details" className="arrow-icon">
+                    <Link href="service" className="arrow-icon">
                       <i className="far fa-arrow-right" />
                     </Link>
                   </div>

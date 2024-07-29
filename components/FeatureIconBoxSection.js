@@ -9,12 +9,10 @@ const FeatureIconBoxSection = () => {
               data-wow-delay=".3s"
             >
               <div className="icon-box-items">
-                <div className="icon">
-                  <i className="flaticon-microchip" />
-                </div>
+              <img src="assets/images/mortarboard.png" width="50" height="50" />
                 <div className="content">
-                  <h3>Voice Over Protocol</h3>
-                  <p>Average time to resolve a cyber attack.</p>
+                  <h3>Démarches de Visa Étudiant</h3>
+                  <p>Étudiez en France sans stress ! RPCH Consulting vous accompagne pour votre visa.</p>
                 </div>
               </div>
             </div>
@@ -23,12 +21,10 @@ const FeatureIconBoxSection = () => {
               data-wow-delay=".5s"
             >
               <div className="icon-box-items active">
-                <div className="icon">
-                  <i className="flaticon-cloud-storage" />
-                </div>
+              <img src="assets/images/car.png" width="50" height="50" />
                 <div className="content">
-                  <h3>Data Backup</h3>
-                  <p>Average time to resolve a cyber attack.</p>
+                  <h3>Location de Voitures</h3>
+                  <p>Louez la voiture parfaite avec RPCH Consulting. Tarifs compétitifs garantis !</p>
                 </div>
               </div>
             </div>
@@ -37,12 +33,10 @@ const FeatureIconBoxSection = () => {
               data-wow-delay=".7s"
             >
               <div className="icon-box-items">
-                <div className="icon">
-                  <i className="flaticon-gear" />
-                </div>
+              <img src="assets/images/passport.png" width="50" height="50" />
                 <div className="content">
-                  <h3>It Consultancy</h3>
-                  <p>Average time to resolve a cyber attack.</p>
+                  <h3>Formalités de Voyage</h3>
+                  <p>Formalités de voyage simplifiées avec RPCH Consulting. Passeport, visa, tout inclus !</p>
                 </div>
               </div>
             </div>

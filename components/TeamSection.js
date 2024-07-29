@@ -5,10 +5,10 @@ const TeamSection = () => {
     <section className="team-section section-padding section-bg-3" id="team">
       <div className="container">
         <div className="section-title text-center">
-          <span className="wow fadeInUp">our hounrable team</span>
+          <span className="wow fadeInUp">Notre équipe honnorable</span>
           <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-            We’ve Exclusive Team member <br />
-            Meet our Professionals
+            L'équipe de RPCH-Consulting <br />
+            Rencontrez nos professionnels
           </h2>
         </div>
         <div className="row align-items-center">
@@ -186,9 +186,9 @@ const TeamSection = () => {
           </div>
         </div>
         <div className="team-button wow fadeInUp" data-wow-delay=".4s">
-          <Link href="team" className="theme-btn mt-5 hover-white">
+          <Link href="contact" className="theme-btn mt-5 hover-white">
             <span>
-              Explore more team
+              Nous contacter
               <i className="fas fa-chevron-right" />
             </span>
           </Link>

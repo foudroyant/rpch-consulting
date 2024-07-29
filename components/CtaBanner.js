@@ -10,13 +10,13 @@ const CtaBanner = ({ textColor = "text-white" }) => {
         <div className="cta-banner-wrapper section-padding pt-0">
           <div className="section-title mb-0">
             <span className={`${textColor} wow fadeInUp`}>
-              5m+ Trusted Our Clients
+            Support Complet pour Vos Séjours
             </span>
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Need It advisor For your business ? <br />
-              Please Call :{" "}
-              <a href="tel:123884400" className={textColor}>
-                (123) 884400
+              Réservez votre hôtel<br />
+              Contactez :{" "}
+              <a href="tel:+33 6 37 08 48 76" className={textColor}>
+                (+33) 6 37 08 48 76
               </a>
             </h2>
           </div>
@@ -26,7 +26,7 @@ const CtaBanner = ({ textColor = "text-white" }) => {
             data-wow-delay=".5s"
           >
             <span>
-              Get a Free Quate
+              Contactez-nous
               <i className="fas fa-chevron-right" />
             </span>
           </Link>

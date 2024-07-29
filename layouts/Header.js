@@ -112,7 +112,7 @@ const Nav = ({ single, menu }) => {
           </li>
           {singleMenu.map((menu) => (
             <li key={menu.id}>
-              <a href={`#${menu.href}`}>{menu.title}</a>
+              <a href={`${menu.href}`}>{menu.title}</a>
             </li>
           ))}
         </ul>
@@ -445,10 +445,7 @@ const Offcanvas = ({
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-youtube" />
+                    <i className="fab fa-instagram" />
                   </a>
                   <a href="#">
                     <i className="fab fa-linkedin-in" />

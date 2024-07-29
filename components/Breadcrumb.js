@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Breadcrumb = ({ pageName = "About Us" }) => {
+const Breadcrumb = ({ pageName = "Qui sommes nous ?" }) => {
   return (
     <div
       className="breadcrumb-wrapper section-padding bg-cover"
@@ -13,7 +13,7 @@ const Breadcrumb = ({ pageName = "About Us" }) => {
           </h1>
           <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
             <li>
-              <Link href="/">Home Page</Link>
+              <Link href="/">Accueil</Link>
             </li>
             <li>
               <i className="fal fa-minus" />

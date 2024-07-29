@@ -9,30 +9,33 @@ import Testimonial3Slider from "@/components/sliders/Testimonial3Slider";
 import Layout from "@/layouts/Layout";
 const page = () => {
   return (
-    <Layout>
-      <Breadcrumb pageName="Our Services" />
+    <Layout footer={2} header={4} single={true}>
+      <Breadcrumb pageName="Nos services" />
 
       <section className="service-section fix section-padding">
         <ServiceSection2 />
       </section>
       <CtaBanner textColor="theme-color-1" />
       <FeatureIconBoxSection />
-      <section className="faq-section section-padding section-bg-2">
+
+      {/*<section className="faq-section section-padding section-bg-2">
         <FaqSection
           extraClass="style-color"
           chartColor="#166FD3"
           titleStyle=""
         />
-      </section>
-      <section className="testimonial-section-2 fix section-padding">
+  </section>*/}
+
+      {/*<section className="testimonial-section-2 fix section-padding">
         <div className="container-fluid">
           <div className="testimonial-wrapper-3 pt-0 pb-0 style-2">
             <Testimonial3Slider />
           </div>
         </div>
-      </section>
-      <NewsSection sectionPadding={false} />
-      <ContactSection style="style-2" btnStyle="" titleStyle="" />
+  </section>*/}
+
+      {/*<NewsSection sectionPadding={false} />*/}
+      {/*<ContactSection style="style-2" btnStyle="" titleStyle="" />*/}
     </Layout>
   );
 };

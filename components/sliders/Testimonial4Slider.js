@@ -37,22 +37,18 @@ export default class Testimonial4Slider extends Component {
                     <div
                       className="testimonial-image bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/testimonial/07.png")',
+                        backgroundImage: 'url("assets/images/etudiante.jpeg")',
                       }}
                     />
                     <div className="client-info">
-                      <h5>Mathias Herasen</h5>
+                      <h5>Laura D</h5>
                       <h6>
-                        Founder of <span>GamerPay</span>
+                      Assistance aux Démarches de <span>Visa Étudiant</span>
                       </h6>
                     </div>
                     <div className="testimonial-content">
                       <h3>
-                        “ The other hand we denounce with righteou indg ation
-                        and dislike men who are so beguiled and demorali ed by
-                        the of pleasure of the moment.Dislike men who are so
-                        beguiled and demoraliz worlds ed by the charms of
-                        pleasure “
+                        “ Grâce à RPCH Consulting, j'ai obtenu mon visa étudiant sans tracas. Leur expertise et leur soutien m'ont permis de me concentrer sur mes études en France. Je recommande vivement leurs services ! “
                       </h3>
                       <div className="star">
                         <span className="fas fa-star" />
@@ -73,22 +69,18 @@ export default class Testimonial4Slider extends Component {
                     <div
                       className="testimonial-image bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/testimonial/07.png")',
+                        backgroundImage: 'url("assets/images/etudiante.jpeg")',
                       }}
                     />
                     <div className="client-info">
-                      <h5>Mathias Herasen</h5>
+                      <h5>Marc L</h5>
                       <h6>
-                        Founder of <span>GamerPay</span>
+                      Service de Location de <span>Voitures </span>
                       </h6>
                     </div>
                     <div className="testimonial-content">
                       <h3>
-                        “ The other hand we denounce with righteou indg ation
-                        and dislike men who are so beguiled and demorali ed by
-                        the of pleasure of the moment.Dislike men who are so
-                        beguiled and demoraliz worlds ed by the charms of
-                        pleasure “
+                        “ J'ai loué une voiture avec RPCH Consulting pour un road trip en famille. Le service était impeccable, les tarifs très compétitifs et la flexibilité de retour était un vrai plus. Merci pour cette expérience sans souci ! “
                       </h3>
                       <div className="star">
                         <span className="fas fa-star" />
@@ -109,22 +101,18 @@ export default class Testimonial4Slider extends Component {
                     <div
                       className="testimonial-image bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/testimonial/07.png")',
+                        backgroundImage: 'url("assets/images/etudiante.jpeg")',
                       }}
                     />
                     <div className="client-info">
-                      <h5>Mathias Herasen</h5>
+                      <h5>Sophie T</h5>
                       <h6>
-                        Founder of <span>GamerPay</span>
+                      Assistance aux  <span>Formalités de Voyage</span>
                       </h6>
                     </div>
                     <div className="testimonial-content">
                       <h3>
-                        “ The other hand we denounce with righteou indg ation
-                        and dislike men who are so beguiled and demorali ed by
-                        the of pleasure of the moment.Dislike men who are so
-                        beguiled and demoraliz worlds ed by the charms of
-                        pleasure “
+                        “ RPCH Consulting m'a aidé à obtenir tous les documents nécessaires pour mon voyage d'affaires. Leur efficacité et leur connaissance des formalités m'ont vraiment impressionné. Je referai appel à eux sans hésiter. “
                       </h3>
                       <div className="star">
                         <span className="fas fa-star" />
@@ -145,22 +133,18 @@ export default class Testimonial4Slider extends Component {
                     <div
                       className="testimonial-image bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/testimonial/07.png")',
+                        backgroundImage: 'url("assets/images/etudiante.jpeg")',
                       }}
                     />
                     <div className="client-info">
-                      <h5>Mathias Herasen</h5>
+                      <h5>Jean-Michel P</h5>
                       <h6>
-                        Founder of <span>GamerPay</span>
+                      Support Complet pour <span> Vos Séjours</span>
                       </h6>
                     </div>
                     <div className="testimonial-content">
                       <h3>
-                        “ The other hand we denounce with righteou indg ation
-                        and dislike men who are so beguiled and demorali ed by
-                        the of pleasure of the moment.Dislike men who are so
-                        beguiled and demoraliz worlds ed by the charms of
-                        pleasure “
+                        “ J'ai réservé mon hôtel en France avec RPCH Consulting et j'ai été très satisfait du service. Ils ont trouvé un hébergement confortable à un prix raisonnable et m'ont même aidé avec des conseils de voyage. Je recommande fortement !“
                       </h3>
                       <div className="star">
                         <span className="fas fa-star" />

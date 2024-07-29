@@ -124,11 +124,12 @@ const FooterMenu = () => {
             <h5>Nos adresses:</h5>
           </div>
           <div className="footer-address-text">
-            <p>570 8th Ave, New York,NY 10018 United States</p>
+            <p>Brazzaville : 62, Rue Bouzala Moungali. Réf : Croisement rue Itoumbi et la rue du Marché 10f</p> 
+            <p>Pointe-Noire : 09 Avenue Bolobo Centre-Ville. Réf : En face de la boutique Aldo</p>
             <h5>Heures:</h5>
             <p>
-              09H30Min – 17H30Mim <br />
-              Du Lundu au Vendredi
+              09H30 – 17H30 <br />
+              Lun - Ven
             </p>
           </div>
         </div>
@@ -141,10 +142,10 @@ const FooterCopyRight = () => {
   return (
     <div className="footer-bottom">
       <div className="container">
-        <div className="footer-wrapper d-flex align-items-center justify-content-between">
+        <div className="footer-wrapper d-flexnpm align-items-center justify-content-between">
           <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
             Copyright © {new Date().getFullYear()}{" "}
-            <Link href="/">Kathbirali</Link>. All Rights Reserved.
+            <Link href="/">Rpch-consulting</Link>. All Rights Reserved.
           </p>
           <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
             <li>

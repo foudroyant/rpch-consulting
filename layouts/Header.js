@@ -262,7 +262,7 @@ const MobileMenu = ({ single, menu }) => {
               <Fragment>
                 {singleMenu.map((menu) => (
                   <li key={menu.id}>
-                    <a href={`#${menu.href}`}>{menu.title}</a>
+                    <a href={`${menu.href}`}>{menu.title}</a>
                   </li>
                 ))}
               </Fragment>

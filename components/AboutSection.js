@@ -46,7 +46,7 @@ const AboutSection = () => {
                 </h2>
               </div>
               <p className=" mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-              Chez RPCH Consulting, nous simplifions les démarches de visa étudiant en offrant une assistance complète et personnalisée, incluant l'attestation de virement irrévocable et l'hébergement en France.
+              Chez RPCH-Consulting, nous simplifions les démarches de visa étudiant en offrant une assistance complète et personnalisée, incluant l'attestation de virement irrévocable et l'hébergement en France.
               </p>
               <div className="circle-progress-bar-wrapper">
                 <div
@@ -77,23 +77,23 @@ const AboutSection = () => {
               <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
                 <li>
                   <i className="far fa-check me-2" />
-                  Expertise et Connaissance Approfondie
+                  Expertise et connaissance approfondie
                 </li>
                 <li>
                   <i className="far fa-check me-2" />
-                  Attestation de Virement Irrévocable
+                  Attestation de virement irrévocable
                 </li>
                 <li>
                   <i className="far fa-check me-2" />
-                  Preuves d'Hébergement Partout en France
+                  Preuves d'hébergement partout en France
                 </li>
                 <li>
                   <i className="far fa-check me-2" />
-                  Préparation et Soumission du Dossier
+                  Préparation et soumission du dossier
                 </li>
                 <li>
                   <i className="far fa-check me-2" />
-                  Accompagnement Personnalisé
+                  Accompagnement personnalisé
                 </li>
               </ul>
               <div className="about-author">
@@ -109,7 +109,7 @@ const AboutSection = () => {
                   <img src="assets/img/about/author.png" alt="author-img" />
                   <div className="content">
                     <img src="assets/img/about/signature.png" alt="signature" />
-                    <p>Le PDG &amp; son équipe</p>
+                    <p>Léquipe de RPCH-Consulting</p>
                   </div>
                 </div>
               </div>

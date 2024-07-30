@@ -149,16 +149,13 @@ const FooterCopyRight = () => {
           </p>
           <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
             <li>
-              <Link href="about">Company</Link>
+              <Link href="/about">Company</Link>
             </li>
             <li>
-              <Link href="contact">Support</Link>
+              <Link href="/contact">Support</Link>
             </li>
             <li>
-              <Link href="contact">Privacy</Link>
-            </li>
-            <li>
-              <Link href="faq">Faqs</Link>
+              <Link href="/contact">Privacy</Link>
             </li>
           </ul>
         </div>
@@ -191,7 +188,7 @@ const FooterRight = () => {
             </a>
           </div>
           <div className="support-text">
-            <p>Contacter le PDG</p>
+            <p>Numéro d'urgence</p>
             <h3>
               <a href="tel:+33 6 37 08 48 76">+33 6 37 08 48 76</a>
             </h3>

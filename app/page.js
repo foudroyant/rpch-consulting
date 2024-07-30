@@ -22,9 +22,9 @@ const page = () => {
         >
           <div>
             <div
-              className="slide-bg bg-cover wow zoomIn"
-              style={{ backgroundImage: 'url("assets/images/etudiante.jpeg")' }}
-            >
+              className="slide-bg  wow zoomIn"
+              style={{ backgroundImage: 'url("assets/images/Banniere_APEF.jpg")' }}
+            > {/*bg-cover*/}
               <div className="container">
                 <div className="row g-4 justify-content-between align-items-center">
                   <div className="col-lg-8">
@@ -34,25 +34,25 @@ const page = () => {
                         data-animation-in="fadeInRight"
                         data-delay-in="0.2"
                       >
-                        5m+ Trusted Our Clients
+                        {/*5m+ Trusted Our Clients*/}
                       </h4>
                       <h1
                         className="fs-lg animated"
                         data-animation-in="fadeInRight"
                         data-delay-in="0.5"
                       >
-                        Assistance aux Démarches de Visa Étudiant par 
-                        RPCH Consulting
+                        {/*Assistance aux démarches de visa étudiant par 
+                        RPCH-Consulting*/}
                       </h1>
                       <div className="hero-button">
                         <Link
-                          href="service-details"
+                          href="/service"
                           className="theme-btn hover-white fs-lg animated"
                           data-animation-in="fadeInRight"
                           data-delay-in="0.7"
                         >
                           <span>
-                            Explore Our Service
+                            Découvrez nos services
                             <i className="fas fa-chevron-right" />
                           </span>
                         </Link>
@@ -77,8 +77,8 @@ const page = () => {
           </div>
           <div>
             <div
-              className="slide-bg bg-cover wow zoomIn"
-              style={{ backgroundImage: 'url("assets/images/voiture.jpeg")' }}
+              className="slide-bg  wow zoomIn"
+              style={{ backgroundImage: 'url("assets/images/banniere_voyage.jpg")' }}
             >
               <div className="container">
                 <div className="row g-4 justify-content-between align-items-center">
@@ -89,24 +89,24 @@ const page = () => {
                         data-animation-in="fadeInRight"
                         data-delay-in="0.2"
                       >
-                        5m+ Trusted Our Clients
+                        {/*5m+ Trusted Our Clients*/}
                       </h4>
                       <h1
                         className="fs-lg animated"
                         data-animation-in="fadeInRight"
                         data-delay-in="0.5"
                       >
-                        Service de Réservation d'Hôtel de RPCH Consulting
+                        {/*Service de réservation d'hôtel de RPCH-Consulting*/}
                       </h1>
                       <div className="hero-button">
                         <Link
-                          href="service-details"
+                          href="/about"
                           className="theme-btn hover-white fs-lg animated"
                           data-animation-in="fadeInRight"
                           data-delay-in="0.7"
                         >
                           <span>
-                            Explore Our Service
+                            Qui sommes-nous
                             <i className="fas fa-chevron-right" />
                           </span>
                         </Link>
@@ -131,8 +131,8 @@ const page = () => {
           </div>
           <div>
             <div
-              className="slide-bg bg-cover wow zoomIn"
-              style={{ backgroundImage: 'url("assets/images/reservation.jpeg")' }}
+              className="slide-bg wow zoomIn"
+              style={{ backgroundImage: 'url("assets/images/Banniere_EBA.jpg")' }}
             >
               <div className="container">
                 <div className="row g-4 justify-content-between align-items-center">
@@ -143,24 +143,24 @@ const page = () => {
                         data-animation-in="fadeInRight"
                         data-delay-in="0.2"
                       >
-                        5m+ Trusted Our Clients
+                        {/*Voyagez l'esprit tranquille*/}
                       </h4>
                       <h1
                         className="fs-lg animated"
                         data-animation-in="fadeInRight"
                         data-delay-in="0.5"
                       >
-                        Émission des Billets d'Avion chez RPCH Consulting
+                        {/*Émission des billets d'avion chez RPCH-Consulting*/}
                       </h1>
                       <div className="hero-button">
                         <Link
-                          href="service-details"
+                          href="/service"
                           className="theme-btn hover-white fs-lg animated"
                           data-animation-in="fadeInRight"
                           data-delay-in="0.7"
                         >
                           <span>
-                            Explore Our Service
+                            Nos services
                             <i className="fas fa-chevron-right" />
                           </span>
                         </Link>
@@ -185,8 +185,8 @@ const page = () => {
           </div>
           <div>
             <div
-              className="slide-bg bg-cover wow zoomIn"
-              style={{ backgroundImage: 'url("assets/images/etudiante.jpeg")' }}
+              className="slide-bg wow zoomIn"
+              style={{ backgroundImage: 'url("assets/images/Bannière H.jpg")' }}
             >
               <div className="container">
                 <div className="row g-4 justify-content-between align-items-center">
@@ -197,24 +197,24 @@ const page = () => {
                         data-animation-in="fadeInRight"
                         data-delay-in="0.2"
                       >
-                        Ils nous font confiance
+                        {/*Ils nous font confiance*/}
                       </h4>
                       <h1
                         className="fs-lg animated"
                         data-animation-in="fadeInRight"
                         data-delay-in="0.5"
                       >
-                        Assistance aux Formalités de Voyage de RPCH Consulting
+                        {/*Assistance aux formalités de voyage de RPCH-Consulting*/}
                       </h1>
                       <div className="hero-button">
                         <Link
-                          href="service-details"
+                          href="/contact"
                           className="theme-btn hover-white fs-lg animated"
                           data-animation-in="fadeInRight"
                           data-delay-in="0.7"
                         >
                           <span>
-                            Explore Our Service
+                            Nous contacter
                             <i className="fas fa-chevron-right" />
                           </span>
                         </Link>
@@ -269,8 +269,8 @@ const page = () => {
                 <div className="content">
                   <span>Service</span>
                   <h3>
-                  Assistance aux Démarches  <br />
-                  de Visa Étudiant
+                  Assistance aux démarches  <br />
+                  de visa étudiant
                   </h3>
                 </div>
                 <div className="icon">
@@ -286,8 +286,8 @@ const page = () => {
                 <div className="content">
                   <span>Service</span>
                   <h3>
-                  Assistance à la Procédure <br />
-                  Campus France
+                  Assistance à la procédure <br />
+                  campus France
                   </h3>
                 </div>
                 <div className="icon">
@@ -320,7 +320,7 @@ const page = () => {
                 <div className="content">
                   <span>Service</span>
                   <h3>
-                  Service de Réservation<br />
+                  Service de réservation<br />
                   d'hotêls
                   </h3>
                 </div>
@@ -371,7 +371,7 @@ const page = () => {
                         <h2>
                           <Counter end={500} />+
                         </h2>
-                        <h3>Cliens satisfaits</h3>
+                        <h3>Clients satisfaits</h3>
                       </div>
                       <div className="counter-items">
                         <h2>
@@ -391,11 +391,11 @@ const page = () => {
                       Ils ont cru en nous
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Assistance aux Formalités de Voyage <br />
+                    Assistance aux formalités de voyage <br />
                     </h2>
                   </div>
                   <p className="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  Chez RPCH Consulting, nous simplifions les formalités de voyage pour vous permettre de vous concentrer sur l'excitation de votre départ, en vous accompagnant à chaque étape pour une expérience sans tracas.<br /> 
+                  Chez RPCH-Consulting, nous simplifions les formalités de voyage pour vous permettre de vous concentrer sur l'excitation de votre départ, en vous accompagnant à chaque étape pour une expérience sans tracas.<br /> 
                   </p>
                   <Tab.Container defaultActiveKey={"mission"}>
                     <div className="single-tab-items">
@@ -406,7 +406,7 @@ const page = () => {
                           data-wow-delay=".3s"
                         >
                           <Nav.Link as={"a"} href="#mission" eventKey="mission">
-                          Expertise et Connaissance
+                          Expertise et connaissance
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item
@@ -419,7 +419,7 @@ const page = () => {
                             href="#strategy"
                             eventKey="strategy"
                           >
-                            Services de Visa
+                            Services de visa
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item
@@ -428,7 +428,7 @@ const page = () => {
                           data-wow-delay=".7s"
                         >
                           <Nav.Link as={"a"} href="#vision" eventKey="vision">
-                          Passeport et Documents de Voyage
+                          Passeport et documents de voyage
                           </Nav.Link>
                         </Nav.Item>
                       </Nav>

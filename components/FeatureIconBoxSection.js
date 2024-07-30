@@ -11,8 +11,8 @@ const FeatureIconBoxSection = () => {
               <div className="icon-box-items">
               <img src="assets/images/mortarboard.png" width="50" height="50" />
                 <div className="content">
-                  <h3>Démarches de Visa Étudiant</h3>
-                  <p>Étudiez en France sans stress ! RPCH Consulting vous accompagne pour votre visa.</p>
+                  <h3>Démarches de visa étudiant</h3>
+                  <p>Étudiez en France sans stress ! RPCH-Consulting vous accompagne pour votre visa.</p>
                 </div>
               </div>
             </div>
@@ -23,8 +23,8 @@ const FeatureIconBoxSection = () => {
               <div className="icon-box-items active">
               <img src="assets/images/car.png" width="50" height="50" />
                 <div className="content">
-                  <h3>Location de Voitures</h3>
-                  <p>Louez la voiture parfaite avec RPCH Consulting. Tarifs compétitifs garantis !</p>
+                  <h3>Location de voitures</h3>
+                  <p>Louez la voiture parfaite avec RPCH-Consulting. Tarifs compétitifs garantis !</p>
                 </div>
               </div>
             </div>
@@ -35,8 +35,8 @@ const FeatureIconBoxSection = () => {
               <div className="icon-box-items">
               <img src="assets/images/passport.png" width="50" height="50" />
                 <div className="content">
-                  <h3>Formalités de Voyage</h3>
-                  <p>Formalités de voyage simplifiées avec RPCH Consulting. Passeport, visa, tout inclus !</p>
+                  <h3>Formalités de voyage</h3>
+                  <p>Formalités de voyage simplifiées avec RPCH-Consulting. Passeport, visa, tout inclus !</p>
                 </div>
               </div>
             </div>

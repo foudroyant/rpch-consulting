@@ -10,7 +10,7 @@ const CtaBanner = ({ textColor = "text-white" }) => {
         <div className="cta-banner-wrapper section-padding pt-0">
           <div className="section-title mb-0">
             <span className={`${textColor} wow fadeInUp`}>
-            Support Complet pour Vos Séjours
+            Support complet pour vos séjours
             </span>
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
               Réservez votre hôtel<br />

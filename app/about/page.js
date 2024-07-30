@@ -49,7 +49,7 @@ const page = () => {
                             aria-selected="true"
                             role="tab"
                           >
-                            Notre Mission
+                            Notre mission
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item
@@ -68,7 +68,7 @@ const page = () => {
                             role="tab"
                             tabIndex={-1}
                           >
-                            Pourquoi Choisir RPCH-Consulting ?
+                            Pourquoi choisir RPCH-Consulting ?
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item
@@ -87,7 +87,7 @@ const page = () => {
                             role="tab"
                             tabIndex={-1}
                           >
-                            Contactez-Nous
+                            Contactez-nous
                           </Nav.Link>
                         </Nav.Item>
                       </Nav>
@@ -99,7 +99,7 @@ const page = () => {
                         >
                           <div className="tab-content-items">
                             <p className="wow fadeInUp" data-wow-delay=".3s">
-                            Chez RPCH Consulting, notre mission est de rendre chaque étape de votre processus administratif aussi simple et agréable que possible. Nous nous engageons à offrir des solutions innovantes et efficaces, tout en maintenant des standards élevés de qualité et de sécurité. Votre satisfaction est notre priorité absolue.
+                            Chez RPCH-Consulting, notre mission est de rendre chaque étape de votre processus administratif aussi simple et agréable que possible. Nous nous engageons à offrir des solutions innovantes et efficaces, tout en maintenant des standards élevés de qualité et de sécurité. Votre satisfaction est notre priorité absolue.
                             </p>
                             <div className="list-area">
                               <ul className="wow fadeInUp" data-wow-delay=".5s">
@@ -122,7 +122,7 @@ const page = () => {
                         >
                           <div className="tab-content-items">
                             <p>
-                            Chez RPCH Consulting, nous sommes dédiés à fournir des services complets pour faciliter vos démarches administratives, qu'il s'agisse de visas étudiants, de formalités de voyage, ou de location de voitures. Notre mission est de simplifier ces processus pour nos clients, en leur offrant une assistance personnalisée et professionnelle.
+                            Chez RPCH-Consulting, nous sommes dédiés à fournir des services complets pour faciliter vos démarches administratives, qu'il s'agisse de visas étudiants, de formalités de voyage, ou de location de voitures. Notre mission est de simplifier ces processus pour nos clients, en leur offrant une assistance personnalisée et professionnelle.
                             </p>
                             <div className="list-area">
                               <ul>
@@ -149,7 +149,7 @@ const page = () => {
                         >
                           <div className="tab-content-items">
                             <p>
-                            Prêt à discuter de vos besoins administratifs ? Contactez RPCH Consulting dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons vous aider à atteindre vos objectifs de voyage, d'études ou de mobilité professionnelle. Avec notre expertise et notre engagement envers l'excellence, vous êtes entre de bonnes mains.
+                            Prêt à discuter de vos besoins administratifs ? Contactez RPCH-Consulting dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons vous aider à atteindre vos objectifs de voyage, d'études ou de mobilité professionnelle. Avec notre expertise et notre engagement envers l'excellence, vous êtes entre de bonnes mains.
                             </p>
                             <div className="list-area">
                               <ul>
@@ -201,7 +201,8 @@ const page = () => {
       {/*<ServiceCounterSection />*/}
 
       {/*<< Team Section Start >>*/}
-      <TeamSection />
+      {/*<TeamSection />*/}
+
       {/*<Marque />*/}
       <Testimonial4Slider />
 

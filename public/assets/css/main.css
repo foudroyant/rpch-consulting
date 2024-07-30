@@ -40,7 +40,7 @@ Version: 1.1.0
   color: var(--white);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   position: relative;
   overflow: hidden;
   font-size: 16px;
@@ -237,7 +237,7 @@ h6 {
   margin: 0px;
   padding: 0;
   color: var(--header);
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -654,7 +654,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
 }
 .section-title h2 {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .section-title.style-2 span {
   color: var(--theme2);
@@ -1350,7 +1350,7 @@ input.main-search-input::placeholder {
 .header-top-wrapper.style-2 .flag-wrap .nice-select span {
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--header);
 }
 .header-top-wrapper.style-2 .flag-wrap .flag {
@@ -1617,7 +1617,7 @@ input.main-search-input::placeholder {
   padding: 35px 0;
   text-align: left;
   position: relative;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -2399,7 +2399,7 @@ input.main-search-input::placeholder {
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li {
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li:not(:last-child) {
   margin-bottom: 15px;
@@ -2571,7 +2571,7 @@ input.main-search-input::placeholder {
   font-size: 18px;
   color: var(--white);
   font-weight: 500;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 @media (max-width: 575px) {
   .breadcrumb-wrapper .page-heading .breadcrumb-items li {
@@ -3828,7 +3828,7 @@ input.main-search-input::placeholder {
   border-radius: 5px;
   font-weight: 600;
   font-size: 16px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--header);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -4513,7 +4513,7 @@ input.main-search-input::placeholder {
   text-align: center;
   font-weight: 600;
   font-size: 18px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--header);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -6552,7 +6552,7 @@ input.main-search-input::placeholder {
   padding: 16px 20px;
   background-color: var(--white);
   width: 100%;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--text);
 }
 .service-details-wrapper .main-sidebar .single-sidebar-widget .message-form .single-form-input textarea {
@@ -7200,7 +7200,7 @@ input.main-search-input::placeholder {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 10px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .case-studies-wrapper-2 .case-studies-items .case-studies-image .icon {
   position: absolute;
@@ -7736,7 +7736,7 @@ input.main-search-input::placeholder {
   background: var(--bg);
   margin-top: 16px;
   width: 100%;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--text);
 }
 
@@ -7744,7 +7744,7 @@ input.main-search-input::placeholder {
   background: var(--bg);
   outline: none;
   color: var(--theme);
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-size: 16px;
 }
 
@@ -8189,12 +8189,12 @@ input.main-search-input::placeholder {
 }
 .team-contact-wrapper .get-touch-items .contact-items .contact-info h4 {
   font-weight: 600;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin-bottom: 10px;
   font-size: 22px;
 }
 .team-contact-wrapper .get-touch-items .contact-items .contact-info h5 {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-size: 18px;
 }
 .team-contact-wrapper .get-touch-items .contact-items .contact-info .social-icon {
@@ -8427,7 +8427,7 @@ input.main-search-input::placeholder {
   border-radius: 5px;
   font-weight: 600;
   font-size: 16px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--header);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -8745,7 +8745,7 @@ input.main-search-input::placeholder {
 .cta-discuss-wrapper .cta-discuss-content .section-title h2 span {
   color: var(--header);
   letter-spacing: initial;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .cta-discuss-wrapper .cta-discuss-content .cta-button {
   margin-top: 10px;
@@ -8844,7 +8844,7 @@ input.main-search-input::placeholder {
   height: 110px;
   line-height: 90px;
   font-weight: 500;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin-right: 20px;
   color: rgba(61, 66, 92, 0.2);
 }
@@ -8904,7 +8904,7 @@ input.main-search-input::placeholder {
   transition: animation 0.2s ease-out, -webkit-animation 0.2s ease-out;
 }
 .marquee-item.style-2 .text-slider {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-size: 65px;
   color: var(--header);
   margin-right: 40px;
@@ -11112,7 +11112,7 @@ input.main-search-input::placeholder {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-family: "Inter", sans-serif;
 }
 @media (max-width: 767px) {
@@ -11270,7 +11270,7 @@ input.main-search-input::placeholder {
 .news-area .main-sidebar .single-sidebar-widget ul > li a {
   font-size: 18px;
   font-weight: 600;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .news-area .main-sidebar .single-sidebar-widget ul > li a:hover {
   color: var(--theme);
@@ -11344,7 +11344,7 @@ input.main-search-input::placeholder {
   padding: 20px;
   width: 100%;
   border: none;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--header);
 }
 .search_widget form button {
@@ -11391,7 +11391,7 @@ input.main-search-input::placeholder {
   line-height: 22px;
   font-weight: 600;
   margin-bottom: 0;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .popular-posts .single-post-item .post-content h5 a:hover, .popular_posts .single-post-item .post-content h5 a:hover {
   color: var(--theme);
@@ -11401,7 +11401,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
   font-weight: 600;
   font-size: 15px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .popular-posts .single-post-item .post-content .post-date i, .popular_posts .single-post-item .post-content .post-date i {
   margin-right: 7px;
@@ -11451,7 +11451,7 @@ input.main-search-input::placeholder {
   font-weight: 600;
   background: var(--bg);
   margin-right: 10px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin-bottom: 10px;
 }
 .tagcloud a:last-child {
@@ -11704,7 +11704,7 @@ p.sticky-label {
   width: 100%;
   border: none;
   font-weight: 500;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--header);
   background-color: var(--bg);
 }
@@ -12158,7 +12158,7 @@ p.sticky-label {
   padding: 20px 30px;
   color: var(--text);
   background-color: transparent;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-weight: 500;
   border-bottom: 1px solid var(--border2);
 }
@@ -12285,13 +12285,13 @@ p.sticky-label {
   }
 }
 .footer-widgets-wrapper .single-footer-widget .widget-head h5 {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin-top: 10px;
   color: var(--white);
 }
 .footer-widgets-wrapper .single-footer-widget .widget-head h3 {
   font-size: 32px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: var(--white);
   margin-top: 10px;
 }
@@ -12424,7 +12424,7 @@ p.sticky-label {
   text-decoration: underline;
 }
 .footer-widgets-wrapper .single-footer-widget .list-items li {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .footer-widgets-wrapper .single-footer-widget .list-items li:not(:last-child) {
   margin-bottom: 15px;

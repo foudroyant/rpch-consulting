@@ -112,7 +112,7 @@ const Nav = ({ single, menu }) => {
           </li>
           {singleMenu.map((menu) => (
             <li key={menu.id}>
-              <a href={`${menu.href}`}>{menu.title}</a>
+              <a href={`/${menu.href}`}>{menu.title}</a>
             </li>
           ))}
         </ul>
@@ -262,7 +262,7 @@ const MobileMenu = ({ single, menu }) => {
               <Fragment>
                 {singleMenu.map((menu) => (
                   <li key={menu.id}>
-                    <a href={`${menu.href}`}>{menu.title}</a>
+                    <a href={`/${menu.href}`}>{menu.title}</a>
                   </li>
                 ))}
               </Fragment>
@@ -350,7 +350,7 @@ const SearchBtn = ({ setSeachToggle }) => {
 const Offcanvas = ({
   open,
   close,
-  logo = "assets/images/logo.png",
+  logo = "assets/images/LOGO.PNG",
   style = "",
   single,
   menu,
@@ -567,7 +567,7 @@ const Header4 = ({ single }) => {
                     </div>
                   </div>
                   <div className="header-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="/contact" className="theme-btn">
                       <span>Contacts</span>
                     </Link>
                   </div>

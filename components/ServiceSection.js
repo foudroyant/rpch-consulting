@@ -82,7 +82,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>01</h4>
                   <h3>
-                    <Link href="service-details">Large Sélection de Véhicules</Link>
+                    <Link href="service-details">Large sélection de véhicules</Link>
                   </h3>
                   <p>
                   Nous offrons une large sélection de véhicules, des voitures économiques aux voitures de luxe, ainsi que des SUV et des véhicules utilitaires, pour répondre à tous vos besoins. <br />
@@ -111,7 +111,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>02</h4>
                   <h3>
-                    <Link href="service-details">Tarifs Compétitifs</Link>
+                    <Link href="service-details">Tarifs compétitifs</Link>
                   </h3>
                   <p>
                   Nos partenariats avec des fournisseurs nous permettent d'offrir des tarifs compétitifs, des réductions exclusives et des forfaits avantageux pour optimiser votre budget de voyage. <br />
@@ -140,7 +140,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>03</h4>
                   <h3>
-                    <Link href="service-details">Flexibilité et Commodité</Link>
+                    <Link href="service-details">Flexibilité et commodité</Link>
                   </h3>
                   <p>
                   Nous offrons des options de location flexibles à court et à long terme, avec la possibilité de récupérer et rendre le véhicule à différents endroits pour plus de commodité.<br />
@@ -169,7 +169,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>04</h4>
                   <h3>
-                    <Link href="service-details">Service Client Personnalisé</Link>
+                    <Link href="service-details">Service client personnalisé</Link>
                   </h3>
                   <p>
                   Notre équipe dédiée vous aide à chaque étape, de la réservation à la restitution, en vous fournissant des conseils personnalisés pour choisir le véhicule adapté à vos besoins et à votre budget.<br />
@@ -198,7 +198,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>05</h4>
                   <h3>
-                    <Link href="service-details">Véhicules Bien Entretenus</Link>
+                    <Link href="service-details">Véhicules bien entretenus</Link>
                   </h3>
                   <p>
                   La sécurité et le confort de nos clients sont prioritaires. Nos véhicules sont régulièrement entretenus et inspectés pour assurer une expérience de conduite sûre et agréable.<br />
@@ -228,27 +228,27 @@ export const ServiceSection2 = ({ showItem = 100 }) => {
   const services = [
     {
       id: 1,
-      title: "Assistance aux Démarches de Visa Étudiant",
+      title: "Assistance aux démarches de visa étudiant",
       icon: "mortarboard.png",
-      desc: "Vous rêvez d'étudier en France ? RPCH Consulting est votre partenaire de confiance pour vous guider à chaque étape de votre demande de visa étudiant.",
+      desc: "Vous rêvez d'étudier en France ? RPCH-Consulting est votre partenaire de confiance pour vous guider à chaque étape de votre demande de visa étudiant.",
     },
     {
       id : 2,
-      title : "Service de Location de Voitures",
+      title : "Service de location de voitures",
       icon : "car.png",
-      desc : "Voyagez en toute liberté avec RPCH Consulting ! Notre service de location de voitures propose une large gamme de véhicules adaptés à tous vos besoins."
+      desc : "Voyagez en toute liberté avec RPCH-Consulting ! Notre service de location de voitures propose une large gamme de véhicules adaptés à tous vos besoins."
     },
     {
       id : 3,
-      title : "Assistance aux Formalités de Voyage",
+      title : "Assistance aux formalités de voyage",
       icon : "travel.png",
-      desc : "Préparez votre voyage en toute sérénité avec RPCH Consulting. Nous vous accompagnons dans toutes vos démarches administratives, de la demande de visa à l'obtention ou le renouvellement de votre passeport."
+      desc : "Préparez votre voyage en toute sérénité avec RPCH-Consulting. Nous vous accompagnons dans toutes vos démarches administratives, de la demande de visa à l'obtention ou le renouvellement de votre passeport."
     },
     {
       id : 3,
-      title : "Support Complet pour Vos Séjours",
+      title : "Support complet pour vos séjours",
       icon : "apartment.png",
-      desc : "Faites de votre séjour une réussite avec RPCH Consulting. Nous proposons un service de réservation d'hôtels qui couvre une large gamme d'options, des hébergements luxueux aux solutions économiques. "
+      desc : "Faites de votre séjour une réussite avec RPCH-Consulting. Nous proposons un service de réservation d'hôtels qui couvre une large gamme d'options, des hébergements luxueux aux solutions économiques. "
     },
   ];
   return (

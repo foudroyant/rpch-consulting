@@ -207,7 +207,7 @@ const FooterLeft = () => {
       <div className="single-footer-widget">
         <div className="widget-head">
           <Link href="/">
-            <img src="assets/images/logo.png" width="150" height="90" alt="logo-img" />
+            <img src="assets/images/LOGO.PNG" width="150" height="90" alt="logo-img" />
           </Link>
         </div>
         <div className="footer-content">

@@ -10,7 +10,7 @@ function Arrow({ className, onClick, icon, extraClass, children }) {
 export const sliderProps = {
   heroSliderActive: {
     autoplay: true,
-    speed: 1500,
+    speed: 3000,
     lazyLoad: "progressive",
     arrows: true,
     dots: false,
@@ -41,7 +41,7 @@ export const sliderProps = {
   },
   heroSliderActive2: {
     autoplay: true,
-    speed: 1500,
+    speed: 2500,
     lazyLoad: "progressive",
     arrows: false,
     fade: true,
@@ -75,7 +75,7 @@ export const sliderProps = {
     autoplay: true,
     autoplaySpeed: 2000,
     infinite: false,
-    speed: 500,
+    speed: 3000,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -113,7 +113,7 @@ export const sliderProps = {
     autoplay: true,
     autoplaySpeed: 2000,
     //centerMode: true,
-    speed: 500,
+    speed: 2500,
     arrows: false,
     slidesToShow: 6,
     slidesToScroll: 1,
@@ -151,7 +151,7 @@ export const sliderProps = {
     autoplay: true,
     autoplaySpeed: 2000,
     //centerMode: true,
-    speed: 500,
+    speed: 2500,
     arrows: false,
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -188,7 +188,7 @@ export const sliderProps = {
   testimonialCarouselActive: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 500,
+    speed: 2500,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -225,7 +225,7 @@ export const sliderProps = {
   testimonialCarouselActive2: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 500,
+    speed: 2500,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -262,7 +262,7 @@ export const sliderProps = {
   testimonialCarouselActive3: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 500,
+    speed: 2500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -271,7 +271,7 @@ export const sliderProps = {
   testimonialCarouselActive4: {
     autoplay: true,
     autoplaySpeed: 1500,
-    speed: 800,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -280,7 +280,7 @@ export const sliderProps = {
   testimonialCarouselActive5: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 500,
+    speed: 1500,
     arrows: false,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -311,7 +311,7 @@ export const sliderProps = {
   caseStudiesCarouselActive: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 800,
+    speed: 1500,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -391,7 +391,7 @@ export const sliderProps = {
   newsCarouselActive: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 800,
+    speed: 1500,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -428,7 +428,7 @@ export const sliderProps = {
   itCaseStudyCarouselActive: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 500,
+    speed: 1500,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,

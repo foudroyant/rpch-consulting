@@ -77,15 +77,7 @@ const AboutSection = () => {
               <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
                 <li>
                   <i className="far fa-check me-2" />
-                  Expertise et connaissance approfondie
-                </li>
-                <li>
-                  <i className="far fa-check me-2" />
-                  Attestation de virement irrévocable
-                </li>
-                <li>
-                  <i className="far fa-check me-2" />
-                  Preuves d'hébergement partout en France
+                  Accompagnement personnalisé
                 </li>
                 <li>
                   <i className="far fa-check me-2" />
@@ -93,12 +85,20 @@ const AboutSection = () => {
                 </li>
                 <li>
                   <i className="far fa-check me-2" />
-                  Accompagnement personnalisé
+                  Expertise et connaissance approfondie
+                </li>
+                <li>
+                  <i className="far fa-check me-2" />
+                  Preuves d'hébergement partout en France
+                </li>
+                <li>
+                  <i className="far fa-check me-2" />
+                  Attestation de virement irrévocable
                 </li>
               </ul>
               <div className="about-author">
                 <div className="about-button wow fadeInUp" data-wow-delay=".8s">
-                  <Link href="about" className="theme-btn">
+                  <Link href="/about" className="theme-btn">
                     <span>
                       Plus d'informations
                       <i className="fas fa-chevron-right" />

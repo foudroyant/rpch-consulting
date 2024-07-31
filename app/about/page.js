@@ -8,6 +8,7 @@ import ServiceSection from "@/components/ServiceSection";
 import TeamSection from "@/components/TeamSection";
 import BrandSlider from "@/components/sliders/BrandSlider";
 import Testimonial4Slider from "@/components/sliders/Testimonial4Slider";
+import Testimonial3Slider from "@/components/sliders/Testimonial3Slider";
 import Layout from "@/layouts/Layout";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";

@@ -21,11 +21,11 @@ const Nav = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "about", title: "A propos" },
-        { id: 2, href: "service", title: "Services" },
+        { id: 1, href: "/about", title: "A propos" },
+        { id: 2, href: "/service", title: "Services" },
         //{ id: 3, href: "team", title: "Team" },
         //{ id: 4, href: "blog", title: "Blog" },
-        { id: 5, href: "contact", title: "Contact" },
+        { id: 5, href: "/contact", title: "Contact" },
       ];
   return (
     <Fragment>
@@ -112,7 +112,7 @@ const Nav = ({ single, menu }) => {
           </li>
           {singleMenu.map((menu) => (
             <li key={menu.id}>
-              <a href={`/${menu.href}`}>{menu.title}</a>
+              <a href={`${menu.href}`}>{menu.title}</a>
             </li>
           ))}
         </ul>
@@ -215,7 +215,7 @@ const Nav = ({ single, menu }) => {
             </ul>
           </li>
           <li>
-            <Link href="contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       )}
@@ -269,7 +269,7 @@ const MobileMenu = ({ single, menu }) => {
             ) : (
               <Fragment>
                 <li>
-                  <Link href="about">A propos</Link>
+                  <Link href="/about">A propos</Link>
                 </li>
                 <li>
                   <a href="#" onClick={() => activeMenuSet("Services")}>
@@ -292,7 +292,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li className="mean-last">
-                  <Link href="contact">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </Fragment>
             )}
@@ -433,7 +433,7 @@ const Offcanvas = ({
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn text-center">
+                  <Link href="/contact" className="theme-btn text-center">
                     <span>
                       Contactez-nous
                       <i className="fas fa-chevron-right" />
@@ -466,8 +466,8 @@ const Offcanvas = ({
 const Header4 = ({ single }) => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
   const singleMenu = [
-    { id: 1, href: "about", title: "A propos" },
-    { id: 2, href: "service", title: "Services" },
+    { id: 1, href: "/about", title: "A propos" },
+    { id: 2, href: "/service", title: "Services" },
     //{ id: 3, href: "team", title: "L'équipe" },
     //{ id: 4, href: "blog", title: "Blog" },
   ];

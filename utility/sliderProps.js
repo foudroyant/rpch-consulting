@@ -270,8 +270,8 @@ export const sliderProps = {
   },
   testimonialCarouselActive4: {
     autoplay: true,
-    autoplaySpeed: 1500,
-    speed: 1500,
+    //autoplaySpeed: 3000,
+    speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -280,7 +280,7 @@ export const sliderProps = {
   testimonialCarouselActive5: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 1500,
+    speed: 2500,
     arrows: false,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -311,7 +311,7 @@ export const sliderProps = {
   caseStudiesCarouselActive: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 1500,
+    speed: 3000,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -354,7 +354,7 @@ export const sliderProps = {
   caseStudiesCarouselActive2: {
     autoplay: true,
     autoplaySpeed: 1500,
-    speed: 1000,
+    speed: 2500,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -391,7 +391,7 @@ export const sliderProps = {
   newsCarouselActive: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 1500,
+    speed: 3000,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -428,7 +428,7 @@ export const sliderProps = {
   itCaseStudyCarouselActive: {
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 1500,
+    speed: 3000,
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,

@@ -57,7 +57,7 @@ const ServiceSection = () => {
             </h2>
           </div>
           <Link
-            href="service-details"
+            href="/service"
             className="theme-btn wow fadeInUp"
             data-wow-delay=".5s"
           >
@@ -82,7 +82,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>01</h4>
                   <h3>
-                    <Link href="service-details">Large sélection de véhicules</Link>
+                    <Link href="/service">Large sélection de véhicules</Link>
                   </h3>
                   <p>
                   Nous offrons une large sélection de véhicules, des voitures économiques aux voitures de luxe, ainsi que des SUV et des véhicules utilitaires, pour répondre à tous vos besoins. <br />
@@ -95,7 +95,7 @@ const ServiceSection = () => {
                   backgroundImage: 'url("assets/images/voiture.jpeg")',
                 }}
               >
-                <Link href="service-details" className="arrow-icon">
+                <Link href="/service" className="arrow-icon">
                   <i className="far fa-arrow-right" />
                 </Link>
               </div>
@@ -124,7 +124,7 @@ const ServiceSection = () => {
                   backgroundImage: 'url("assets/images/voiture.jpeg")',
                 }}
               >
-                <Link href="service-details" className="arrow-icon">
+                <Link href="/service" className="arrow-icon">
                   <i className="far fa-arrow-right" />
                 </Link>
               </div>
@@ -140,7 +140,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>03</h4>
                   <h3>
-                    <Link href="service-details">Flexibilité et commodité</Link>
+                    <Link href="/service">Flexibilité et commodité</Link>
                   </h3>
                   <p>
                   Nous offrons des options de location flexibles à court et à long terme, avec la possibilité de récupérer et rendre le véhicule à différents endroits pour plus de commodité.<br />
@@ -169,7 +169,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>04</h4>
                   <h3>
-                    <Link href="service-details">Service client personnalisé</Link>
+                    <Link href="/service">Service client personnalisé</Link>
                   </h3>
                   <p>
                   Notre équipe dédiée vous aide à chaque étape, de la réservation à la restitution, en vous fournissant des conseils personnalisés pour choisir le véhicule adapté à vos besoins et à votre budget.<br />
@@ -182,7 +182,7 @@ const ServiceSection = () => {
                   backgroundImage: 'url("assets/images/voiture.jpeg")',
                 }}
               >
-                <Link href="service-details" className="arrow-icon">
+                <Link href="/service" className="arrow-icon">
                   <i className="far fa-arrow-right" />
                 </Link>
               </div>
@@ -198,7 +198,7 @@ const ServiceSection = () => {
                 <div className="content">
                   <h4>05</h4>
                   <h3>
-                    <Link href="service-details">Véhicules bien entretenus</Link>
+                    <Link href="/service">Véhicules bien entretenus</Link>
                   </h3>
                   <p>
                   La sécurité et le confort de nos clients sont prioritaires. Nos véhicules sont régulièrement entretenus et inspectés pour assurer une expérience de conduite sûre et agréable.<br />

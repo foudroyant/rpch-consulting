@@ -68,7 +68,7 @@ const AboutSection = () => {
                   <ProgressBar value={93} color={"#166FD3"} />
                   <div className="content">
                     <h6>
-                      D'édutiants <br />
+                      D'étudiants <br />
                       accompagnés
                     </h6>
                   </div>

@@ -9,7 +9,7 @@ function Arrow({ className, onClick, icon, extraClass, children }) {
 }
 export const sliderProps = {
   heroSliderActive: {
-    autoplay: true,
+    //autoplay: true,
     speed: 3000,
     lazyLoad: "progressive",
     arrows: true,
@@ -41,7 +41,7 @@ export const sliderProps = {
   },
   heroSliderActive2: {
     autoplay: true,
-    speed: 2500,
+    speed: 3000,
     lazyLoad: "progressive",
     arrows: false,
     fade: true,
@@ -269,8 +269,8 @@ export const sliderProps = {
     dots: false,
   },
   testimonialCarouselActive4: {
-    autoplay: true,
-    //autoplaySpeed: 3000,
+    //autoplay: true,
+    autoplaySpeed: 3000,
     speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,

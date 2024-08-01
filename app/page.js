@@ -78,7 +78,7 @@ const page = () => {
           <div>
             <div
               className="slide-bg  wow zoomIn"
-              style={{ backgroundImage: 'url("assets/images/banniere_voyage.jpg")' }}
+              style={{ backgroundImage: 'url("assets/images/Banniere_SDA.jpg")' }}
             >
               <div className="container">
                 <div className="row g-4 justify-content-between align-items-center">
@@ -132,7 +132,7 @@ const page = () => {
           <div>
             <div
               className="slide-bg wow zoomIn"
-              style={{ backgroundImage: 'url("assets/images/Banniere_EBA.jpg")' }}
+              style={{ backgroundImage: 'url("assets/images/Banniere_H.jpg")' }}
             >
               <div className="container">
                 <div className="row g-4 justify-content-between align-items-center">
@@ -186,7 +186,7 @@ const page = () => {
           <div>
             <div
               className="slide-bg wow zoomIn"
-              style={{ backgroundImage: 'url("assets/images/Bannière H.jpg")' }}
+              style={{ backgroundImage: 'url("assets/images/BanniereEBA.jpg")' }}
             >
               <div className="container">
                 <div className="row g-4 justify-content-between align-items-center">
@@ -352,7 +352,7 @@ const page = () => {
                 <div
                   className="trusted-client-image bg-cover"
                   style={{
-                    backgroundImage: 'url("assets/images/Banniere_EBA.jpg")',
+                    backgroundImage: 'url("assets/images/BanniereEBA.jpg")',
                   }}
                 >
                   <div className="icon-box">

@@ -109,7 +109,7 @@ da notre expertise et de notre accompagnement personnalisé.
                     className="contact-image wow fadeInUp"
                     data-wow-delay=".4s"
                   >
-                    <img src="assets/images/banniere_voyage.jpg" alt="img" />
+                    <img src="assets/images/Banniere_SDA.jpg" alt="img" />
                   </div>
                 </div>
               </div>

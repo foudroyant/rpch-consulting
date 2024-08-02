@@ -95,6 +95,10 @@ const AboutSection = () => {
                   <i className="far fa-check me-2" />
                   Attestation de virement irrévocable
                 </li>
+                <li>
+                  <i className="far fa-check me-2" />
+                  Prise en charge financière
+                </li>
               </ul>
               <div className="about-author">
                 <div className="about-button wow fadeInUp" data-wow-delay=".8s">

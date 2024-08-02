@@ -538,12 +538,12 @@ const Header4 = ({ single }) => {
                   <div className="logo">
                     <Link href="/" className="header-logo-1">
                       <img
-                        src="assets/images/LOGO.PNG" width="150" height="100"
+                        src="assets/images/LOGO.PNG" width="300" height="200"
                         alt="logo-img"
                       />
                     </Link>
                     <Link href="/" className="header-logo-2">
-                      <img src="assets/images/LOGO.PNG" width="200" height="100" alt="logo-img" />
+                      <img src="assets/images/LOGO.PNG" width="300" height="200" alt="logo-img" />
                     </Link>
                   </div>
                   <div className="mean__menu-wrapper">
